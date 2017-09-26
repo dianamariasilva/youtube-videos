@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Youtube jQuery</title>
+
+   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+   <script src="node_modules/jquery/dist/jquery.min.js"></script>
+   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+   <script src="node_modules/axios/dist/axios.min.js"></script>
+   <script src="node_modules/youtube-api-search/index.js"></script>
+   
+   <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <section class="container-fluid">
+        <div class="row">
+            <!-- <div class="col-lg-4">
+                <img src="img/youtube.png" alt="">
+            </div> -->
+            <div class="col-lg-8">
+                <div class="input">
+                    <form>
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="searchItem" placeholder="Search">
+                            <div class="input-group-btn">
+                            <span class="btn btn-default" id="glass"><i class="glyphicon glyphicon-search"></i></span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div > 
+            <div class="row">
+                <div class="col-lg-6 text-center">
+                    <div id="newVideo"></div>
+                </div>
+                <div class="col-lg-6">
+                    <ol id = "root">
+                            
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+   <script src="app.js"></script>
+</body>
+</html>
